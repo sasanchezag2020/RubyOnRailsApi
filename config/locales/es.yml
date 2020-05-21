@@ -1,0 +1,28 @@
+es:
+  credentials:
+    error: "Sus credenciales no son correctas"
+    not_params: "No se encontraron parámetros esperados"
+    invalid: "Su email/password son incorrectos"
+    repit: "Ese correo ya está registrado"
+    user_ivalid: "Correo y/o contraseña incorrecta(s)"
+  sessions:
+    login: "Bienvenido %{email}"
+  resources:
+    category: "Categoría"
+    categories: "Categorías"
+    article: "Artículo"
+    articles: "Artículos"
+  messages:
+    add_name: "Debe registrar el nombre del recurso"
+    dont_find: "No se encuentra el recurso solicitado"
+  rules:
+    dont_empty: "No se encontraron parametors en el recurso"
+    dont_register: "No se ha podido crear el recurso solicitado"
+  crud:
+    created: "%{resource} registrado"
+    updated: "%{resource} actualizado"
+    deleted: "%{resource} eliminado"
+    update_error: "Su recurso no se ha podido actualizar"
+  user:
+    updated: "Usuario con el '%{email}' actualizado"
+
